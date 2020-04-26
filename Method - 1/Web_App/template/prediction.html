@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+   <meta charset="UTF-8">
+    <title>Prediction Page | Reddit Flair Detector</title>
+</head>
+<body>
+  <h1>You're on the Prediction Page!!</h1>
+  <h2>Enter your URL below and the app will Predict the Flair Tag for you!!</h2>
+  <div class="formbox">
+  <form action="{{ url_for('prediction_page') }}" method="POST">
+      <fieldset>
+          <legend>Reddit Flair Detector:</legend>
+          Enter a Reddit Post URL from <a href="https://reddit.com/r/india" style="color: white">here</a>:
+          <input name="url" type="text" required>
+          <br>
+          <input type="submit" class="btn btn-primary btn-block btn-large">
+      </fieldset>
+  </form>
+  </div>
+  <br>
+  <div class="result" align="center">
+      {% if result %}
+      	<br> Predicted flair:
+     		<p style="font-size:50px">{{ result }}</p>
+      {% endif %}
+  </div>
+</body>
+</html>
