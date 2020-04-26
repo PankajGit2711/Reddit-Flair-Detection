@@ -9,11 +9,11 @@ app = Flask(__name__,template_folder='template')
 
 model = joblib.load('model/production_model.pkl')
 
-client_id = "zMvnVRM8MN_MRw"
-client_secret = "-JIqik-pmfgku1BVB_2gcoxnMwM"
-user_agent = "FlareReddit"
-username = "psatreddit"
-password = "pankaj123"
+client_id = ""
+client_secret = ""
+user_agent = ""
+username = ""
+password = ""
 
 reddit = praw.Reddit(client_id = client_id, client_secret = client_secret, user_agent = user_agent, username = username, password = password)
 
