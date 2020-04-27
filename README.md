@@ -1,4 +1,4 @@
-# Reddit-Flair-Detection
+# Reddit-Flair-Detection (https://reddit-application-flair.herokuapp.com/)
 
 Reddit Flair Detection is an web-based application for detecting reddit flairs tag based on thier features like title, content, url.
 This is project is the solution for the assignment given by MIDAS Labs - IIIT Delhi
@@ -138,6 +138,7 @@ Note:- Highlighted Model From the table is used in the deployment.
 
 ## Libraries Used 
 The Libraries Used in the devlopment of both methods are listed below:
+
 ### Method - 1
 
 * [Numpy](http://https://numpy.org/)
@@ -146,7 +147,7 @@ The Libraries Used in the devlopment of both methods are listed below:
 * [NLTK](https://www.nltk.org/)
 * [PRAW](https://praw.readthedocs.io/en/latest/)
 
-## Method - 2
+### Method - 2
 
 * [Numpy](http://https://numpy.org/)
 * [Pandas](https://pandas.pydata.org/)
